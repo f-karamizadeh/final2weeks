@@ -1,0 +1,108 @@
+body{
+    background-color: #e4e6f8;
+    font-size: 100%;
+    font-family:'Open Sans', sans-serif;
+}
+
+.wrapper{
+    background-color: #fff;
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+
+}
+
+header .brand{
+    color: #666;
+    font-family: 'Pacifico' , 'Georgia';
+    font-size: 1.7em;
+    padding: 1em;
+
+}
+
+header .brand span{ 
+    color: #666;
+    font-family: 'Open Sans' , 'Sans-serif';
+    font-size: 0.4em;
+    padding: 1em;
+}
+
+#hero{
+    min-height: 400px;
+    background: #68bba1 url("./img/back.jpg") center no-repeat;
+}
+
+main{
+    overflow: hidden;
+    display: flex;
+    padding: 1.5em;
+}
+
+#blogContent{
+    width: 70%;
+}
+
+aside{
+    background-color: #e6f7cc;
+    padding: 1.8em;
+    margin-left: 2em;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 450px;
+}
+
+aside h3{
+    
+    background-color: #a895eb;
+    color: #fff;
+    margin-top: 0;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a{
+    padding: 0.8em 0;
+    display: block;
+}
+
+a{
+    color: #333;
+}
+
+a:hover{
+    color: #0062ff;
+}
+
+article{
+    margin-bottom: 3.7em;
+    margin-top: 3.7em;
+}
+
+article h2{
+    margin-bottom: 0;
+    font-size: 1.2em;
+    color: #333;
+    padding: 0;
+}
+
+article h2{
+    margin-top: 0.8em;
+    color: #333;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    clear: both;
+}
